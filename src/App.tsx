@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Mail, MapPin, Trophy, Gamepad2, BanIcon as BadmintonIcon } from 'lucide-react';
+import img from "../src/img/Ayush.jpg";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <div
           className="absolute inset-0 bg-cover bg-center z-0"
           style={{
-            backgroundImage: 'url("./src/img/Ayush.jpg")',
+            backgroundImage: url(img),
             opacity: "0.2",
           }}
         />
