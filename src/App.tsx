@@ -9,7 +9,7 @@ function App() {
         <div
           className="absolute inset-0 bg-cover bg-center z-0"
           style={{
-            backgroundImage: 'url("./img/Ayush.jpg")',
+            backgroundImage: 'url("./src/img/Ayush.jpg")',
             opacity: "0.2",
           }}
         />
